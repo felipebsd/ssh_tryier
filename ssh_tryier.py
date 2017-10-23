@@ -31,5 +31,6 @@ for host in hosts:
                 error = True
                 passed = False
                 break
+
         if error == True or passed == True:
             break
